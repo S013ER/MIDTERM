@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo+Black:400');
+
+@font-face {
+  font-family: "Arial-Black";
+  src: url('../fonts/Arial Black.ttf') format("truetype");
+}
+
+.performance {
+  width               : 100%;
+  min-width           : 375px;
+  height              : 100vh;
+  min-height          : 667px;
+  position            : relative;
+  overflow            : hidden;
+  margin              : 0px;
+  background-color    : rgba(255, 255, 255, 1.0);
+}
+a {
+  text-decoration     : none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+div {
+  -webkit-text-size-adjust: none;
+}
+.performance .icons8backarrow50 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : calc(0.00% + 19px);
+  height              : 50px;
+  width               : 50px;
+  position            : absolute;
+  margin              : 0;
+  left                : calc(0.00% + 18px);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.performance .nick {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 375px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.5s ease;
+}
+.performance .nick-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 625px;
+  align-items         : center;
+  height              : 42px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.performance .nick:hover {
+  transform           : scale(1.1);
+}
+.performance .nick .nick1 {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 375px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.5s ease;
+}
+.performance .nick .nick1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 42px;
+  width               : 100%;
+  position            : relative;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.performance .nick .nick1:hover {
+  transform           : scale(1.1);
+}
+.performance .wayne {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 375px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.5s ease;
+}
+.performance .wayne-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 582px;
+  align-items         : center;
+  height              : 49px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.performance .wayne:hover {
+  transform           : scale(1.1);
+}
+.performance .wayne .wayne1 {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 375px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.5s ease;
+}
+.performance .wayne .wayne1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 49px;
+  width               : 100%;
+  position            : relative;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.performance .wayne .wayne1:hover {
+  transform           : scale(1.1);
+}
+.performance .eminem {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 375px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.5s ease;
+}
+.performance .eminem-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 534px;
+  align-items         : center;
+  height              : 49px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.performance .eminem:hover {
+  transform           : scale(1.1);
+}
+.performance .eminem .eminem1 {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 375px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.5s ease;
+}
+.performance .eminem .eminem1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 49px;
+  width               : 100%;
+  position            : relative;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.performance .eminem .eminem1:hover {
+  transform           : scale(1.1);
+}
+.performance .khaled {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 375px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.5s ease;
+}
+.performance .khaled-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 479px;
+  align-items         : center;
+  height              : 56px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.performance .khaled:hover {
+  transform           : scale(1.1);
+}
+.performance .khaled .khaled1 {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 375px;
+  height              : 100%;
+  pointer-events      : auto;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.5s ease;
+}
+.performance .khaled .khaled1-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 0px;
+  align-items         : center;
+  height              : 56px;
+  width               : 100%;
+  position            : relative;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.performance .khaled .khaled1:hover {
+  transform           : scale(1.1);
+}
+.performance .drake {
+  background-color    : rgba(255,255,255,0.0);
+  width               : 377px;
+  margin-right        : 1px;
+  height              : 100%;
+  pointer-events      : auto;
+  margin-left         : -1px;
+  position            : relative;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.5s ease;
+}
+.performance .drake-layout-container {
+  pointer-events      : none;
+  flex-direction      : column;
+  top                 : 85px;
+  align-items         : center;
+  height              : 394px;
+  width               : 100%;
+  position            : absolute;
+  margin              : 0;
+  display             : flex;
+  left                : 0;
+}
+.performance .drake:hover {
+  transform           : scale(1.1);
+}
+.performance .drake .drake6 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 394px;
+  width               : 377px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.performance .drake .drake6 .drake61 {
+  background-color    : rgba(255,255,255,0.0);
+  top                 : 0px;
+  height              : 394px;
+  width               : 377px;
+  position            : relative;
+  margin              : 0;
+  left                : 0px;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+}
+.performance .drake .rectangle {
+  background-color    : rgba(215, 215, 215, 1.0);
+  bottom              : 0%;
+  height              : 78px;
+  width               : 293px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0%;
+  border-style        : solid;
+  border-width        : 1px;
+  border-color        : rgba(150, 150, 150, 1.0);
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  opacity             : 0.65;
+}
+.performance .drake .musicalu2014andjewish {
+  background-color    : rgba(255,255,255,0.0);
+  bottom              : calc(0.00% + 7px);
+  height              : auto;
+  width               : 295px;
+  position            : absolute;
+  margin              : 0;
+  left                : 0%;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  font-family         : "Archivo Black", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 9.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 12.0px;
+}
+.performance .whotheyare {
+  background-color    : rgba(255,255,255,0.0);
+  right               : calc(0.00% + 16px);
+  top                 : calc(0.00% + 19px);
+  height              : auto;
+  width               : 274px;
+  position            : absolute;
+  margin              : 0;
+  -ms-transform       : rotate(0deg); /* IE 9 */
+  -webkit-transform   : rotate(0deg); /* Chrome, Safari, Opera */
+  transform           : rotate(0deg);
+  transition          : all 0.2s ease;
+  font-family         : "Archivo Black", Helvetica, Arial, serif;
+  font-weight         : 400;
+  font-style          : normal;
+  font-size           : 31.0px;
+  color               : rgba(0, 0, 0, 1.0);
+  text-align          : center;
+  line-height         : 41.0px;
+}
+.performance .whotheyare:hover {
+  transform           : translate(0, -5px);
+}
+/* .anima-animate-appear prefix for appear animations */
+.anima-animate-appear {
+  opacity             : 0;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 normal forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 normal forwards;
+}
+.anima-animate-disappear {
+  opacity             : 1;
+  display             : block;
+  -webkit-animation   : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  -moz-animation      : anima-reveal 0.3s ease-in 1 normal forwards;
+  -o-animation        : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+  animation           : anima-reveal 0.3s ease-in-out 1 reverse forwards;
+}
+.anima-animate-nodelay {
+  -webkit-animation-delay: 0;
+  -moz-animation-delay: 0;
+  -o-animation-delay  : 0;
+  animation-delay     : 0;
+}
+@-webkit-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-moz-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@-o-keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
+@keyframes anima-reveal {
+  0%
+   
+  {
+      opacity: 0;
+    }
+  
+    
+  100%
+   
+  {
+      opacity: 1;
+    }
+}
